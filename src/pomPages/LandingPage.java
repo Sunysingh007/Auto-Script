@@ -31,7 +31,7 @@ public class LandingPage {
     	String actualText = abvText.getText();
 
     	if (actualText.contains(expectedText)) {
-    	    System.out.println("Text matches: " + actualText);
+    	    System.out.println("Text matche: " + actualText);
     	} else {
     	    System.out.println("Text does not match. Actual text: " + actualText);
     	}
